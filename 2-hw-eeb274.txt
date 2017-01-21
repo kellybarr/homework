@@ -1,0 +1,204 @@
+Rodentia
+Rodentia
+Rodentia
+Macroscelidea
+Rodentia
+There are  153 unique families.
+Abrocomidae
+Acrobatidae
+Ailuridae
+Anomaluridae
+Antilocapridae
+Aotidae
+Aplodontiidae
+Atelidae
+Balaenidae
+Balaenopteridae
+Bathyergidae
+Bovidae
+Bradypodidae
+Burramyidae
+Caenolestidae
+Callitrichidae
+Calomyscidae
+Camelidae
+Canidae
+Capromyidae
+Castoridae
+Caviidae
+Cebidae
+Cercopithecidae
+Cervidae
+Cheirogaleidae
+Chinchillidae
+Chrysochloridae
+Craseonycteridae
+Cricetidae
+Ctenodactylidae
+Ctenomyidae
+Cuniculidae
+Cyclopedidae
+Cynocephalidae
+Dasypodidae
+Dasyproctidae
+Dasyuridae
+Daubentoniidae
+Delphinidae
+Diatomyidae
+Didelphidae
+Dinomyidae
+Dipodidae
+Dugongidae
+Echimydae
+Echimyidae
+Elephantidae
+Emballonuridae
+Equidae
+Erethizontidae
+Erinaceidae
+Eschrichtiidae
+Eupleridae
+Family
+Felidae
+Furipteridae
+Galagidae
+Geomyidae
+Giraffidae
+Gliridae
+Herpestidae
+Heteromyidae
+Hippopotamidae
+Hipposideridae
+Hominidae
+Hyaenidae
+Hylobatidae
+Hypsiprymnodontidae
+Hystricidae
+Indriidae
+Iniidae
+Lemuridae
+Lepilemuridae
+Leporidae
+Lorisidae
+Macropodidae
+Macroscelididae
+Manidae
+Megadermatidae
+Megalonychidae
+Mephitidae
+Microbiotheriidae
+Molossidae
+Monodontidae
+Mormoopidae
+Moschidae
+Muridae
+Mustelidae
+Myocastoridae
+Myrmecobiidae
+Myrmecophagidae
+Mystacinidae
+Myzopodidae
+Nandiniidae
+Natalidae
+Neobalaenidae
+Nesomyidae
+Noctilionidae
+Notoryctidae
+Nycteridae
+Ochotonidae
+Octodontidae
+Odobenidae
+Ornithorhynchidae
+Orycteropodidae
+Otariidae
+Pedetidae
+Peramelidae
+Petauridae
+Petromuridae
+Phalangeridae
+Phascolarctidae
+Phocidae
+Phocoenidae
+Phyllostomidae
+Physeteridae
+Pitheciidae
+Platacanthomyidae
+Platanistidae
+Potoroidae
+Prionodontidae
+Procaviidae
+Procyonidae
+Pseudocheiridae
+Pteropodidae
+Ptilocercidae
+Rhinocerotidae
+Rhinolophidae
+Rhinopomatidae
+Sciuridae
+Solenodontidae
+Soricidae
+Spalacidae
+Suidae
+Tachyglossidae
+Talpidae
+Tapiridae
+Tarsiidae
+Tarsipedidae
+Tayassuidae
+Tenrecidae
+Thryonomyidae
+Thylacomyidae
+Thyropteridae
+Tragulidae
+Trichechidae
+Tupaiidae
+Ursidae
+Vespertilionidae
+Viverridae
+Vombatidae
+Ziphiidae
+  267  echo 'aaabbb' |tr 'a' 'b'
+  268  echo '0123456789' | tr 1-5 0
+  269  echo "ACtGGcAaTT" | tr acgt ACGT
+  270  echo "ACtGGcAaTT" | tr [:lower:] [:upper:]
+  271  echo "aabbccddee" | tr a-c 1-3
+  272  echo "aaaabbbb"| tr -d "a"
+  273  ls
+  274  tail -n +2 Pacifici2013_data.csv
+  275  head Pacifici2013_data.csv
+  276  tail -n +2 Pacifici2013_data.csv | cut -d ";" -f 2-6
+  277  tail -n +2 Pacifici2013_data.csv | cut -d ";" -f 2-6 | tr -s ";" " "
+  278  tail -n +2 Pacifici2013_data.csv | cut -d ";" -f 2-6 | tr -s ";" " " | sort -r -n -k 6
+  279  tail -n +2 Pacifici2013_data.csv | cut -d ";" -f 2-6 | tr -s ";" " " | sort -r -n -k 6 >BodyM.csv
+  280  gedit BodyM.csv
+  281  history
+  282  history -14 >>~/Desktop/eeb274/homework/2-hw-eeb274.txt
+  283  history -n 15 >>~/Desktop/eeb274/homework/2-hw-eeb274.txt
+  284  history -n 15 
+  285  history 15 
+  286  history 20 >>~/Desktop/eeb274/homework/2-hw-eeb274.txt
+Eubalaena glacialis is the 10th largest species by body mass
+Pipistrellus nanulus is the 10th smallest species by body mass
+  309  grep Vombatidae BodyM.csv
+  310  grep -c Vombatidae BodyM.csv
+  311  grep Bos BodyM.csv
+  312  grep -w Bos BodyM.csv
+  313  grep -i Bos BodyM.csv
+  314  grep -B 2 -A 2 "Gorilla gorilla" BodyM.csv
+  315  grep -n "Gorilla gorilla" BodyM.csv
+  316  grep Gorilla BodyM.csv | grep -v gorilla
+  317  grep -w "Gorilla\|Pan" BodyM.csv
+  318  cd ..
+  319  grep -r "Gorilla" data/
+  320  history
+  321  history 14>>~/Desktop/eeb274/homework/2-hw-eeb274.txt
+  322  history 14 >> ~/Desktop/eeb274/homework/2-hw-eeb274.txt
+Highest number of reads in Marra2014 is 995
+  381  for filename in edited*.txt; do mv $filename ~/Desktop/eeb274/CSB/unix/sandbox/temp; done
+Q1:  first command gives you no readout because it's looking for a file called "*.dat"; the second lists the ".dat" files.
+Q2:  Answer number 2.
+Q3:  Answer 1.
+Q4:  Answer 4, s-words for $1,000, Alex!
+Q5:  I think both options work.  
+Q6:  this would sort files by hierachically, sugar and then temperature
+
